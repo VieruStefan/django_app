@@ -20,5 +20,6 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('polls/', include("polls.urls"))
+    path('polls/', include("polls.urls")),
+    path('olx/', include('olx.urls'))
 ]
